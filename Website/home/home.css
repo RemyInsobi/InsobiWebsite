@@ -1,0 +1,39 @@
+.statement{
+    font-size: 5rem;
+}
+
+button{
+    padding: 1.2rem 2.25rem;
+    border-radius: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 1rem 0;
+    
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.text-content{
+    flex: 6.3;
+}
+.image-content{
+    flex: 3.7;
+    padding: 0 0 0 5rem;
+}
+
+.image-content img {
+    width: 100%;              /* or a fixed size like 300px */
+    max-width: 33rem;
+    aspect-ratio: 1 / 1;      /* ensures it's square */
+    border-radius: 50%;       /* makes it a perfect circle */
+    object-fit: cover;        /* zoom/crop to fill the circle */
+    display: block;
+    margin: 0 auto;           /* center horizontally if needed */
+}

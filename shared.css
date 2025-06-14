@@ -1,0 +1,174 @@
+/* Elements */
+:root{
+    --light: #23282D;
+    --dark: #1B1F23;
+    --contrast: #F05454;
+    --offpitch: #B889DB;
+    --backdrop: #222A35;
+
+}
+
+
+*,
+::before
+::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin:0;
+    line-height: calc(1em +0.5rem);
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Bespoke Sans', sans-serif;
+    background-color: var(--light);
+    padding-top: 7rem;
+    
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+button{
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background-color: var(--contrast);
+    cursor: pointer;
+    color: white;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+a{
+    color: white;
+}
+
+strong{
+    color: var(--offpitch);
+}
+
+
+
+/* Content */
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.section{
+    margin-top: 3rem;
+}
+
+.navbar{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: var(--dark);
+    z-index: 1000;
+    
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    gap:3rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.nav-buttons{
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-buttons button {
+    padding: 0.75rem 2.25rem;
+    border-radius: 6px;
+    color: white;
+    background-color: var(--contrast);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+.logo img{
+    height: 6rem;
+    width: 6rem;
+    align-items: center;
+}
+
+
+
+/* Media  */
+@media (min-width: 475px) {
+    .container {
+        max-width: 475px;
+    }
+
+
+}
+
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+
+
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .section{
+        margin-top: 5rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}
