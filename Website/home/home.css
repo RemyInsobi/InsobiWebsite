@@ -29,11 +29,11 @@ button{
 }
 
 .image-content img {
-    width: 100%;              /* or a fixed size like 300px */
+    width: 100%;              
     max-width: 33rem;
-    aspect-ratio: 1 / 1;      /* ensures it's square */
-    border-radius: 50%;       /* makes it a perfect circle */
-    object-fit: cover;        /* zoom/crop to fill the circle */
+    aspect-ratio: 1 / 1;      
+    border-radius: 50%;       
+    object-fit: cover;        
     display: block;
-    margin: 0 auto;           /* center horizontally if needed */
+    margin: 0 auto;           
 }
