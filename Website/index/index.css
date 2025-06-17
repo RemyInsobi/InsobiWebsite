@@ -1,6 +1,13 @@
-.statement{
+.hero-statement{
     font-size: 5rem;
 }
+
+.section-heading{
+    font-size: 4.5rem;
+    padding: 0 0 2rem 0;
+    text-align: center;
+}
+
 
 button{
     padding: 1.2rem 2.25rem;
@@ -36,4 +43,117 @@ button{
     object-fit: cover;        
     display: block;
     margin: 0 auto;           
+}
+
+
+
+/* Services Content Section */
+.statement-heading{
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+/* A Content */
+.main-content-serivces-layoutA{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.text-content-left{
+    flex: 7;
+}
+.image-content-right{
+    flex: 3;
+    padding: 0 0 0 5rem;
+}
+
+.image-content-right img {
+    width: 100%;              
+    max-width: 28rem;
+    aspect-ratio: 1 / 1;      
+    border-radius: 7%;       
+    object-fit: cover;        
+    display: block;
+    margin: 0 auto;           
+}
+
+/* B Content*/
+.main-content-serivces-layoutB{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.text-content-right{
+    flex: 7;
+}
+.image-content-left{
+    flex: 3;
+    padding: 0 5rem 0 0;
+}
+
+.image-content-left img {
+    width: 100%;              
+    max-width: 28rem;
+    aspect-ratio: 1 / 1;      
+    border-radius: 7%;       
+    object-fit: cover;        
+    display: block;
+    margin: 0 auto;           
+}
+
+
+
+
+
+
+/* Contact Us form */
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30rem;
+  margin: 0 auto; 
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 32px;
+}
+
+#contactForm label {
+  align-self: flex-start;
+  font-weight: bold;
+  color: var(--offpitch);
+  font-size: 1.25rem;
+}
+
+#contactForm input,
+#contactForm textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+#contactForm textarea {
+  min-height: 15rem;
+  resize: vertical; 
+}
+
+#contactForm button {
+    padding: 1.2rem 2.25rem;
+    border-radius: 16px;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem 0;
 }

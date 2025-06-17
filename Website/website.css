@@ -5,3 +5,30 @@ button{
     
 }
 
+.shade{
+    background-color: var(--medium);
+}
+
+.no-shade{
+    background-color: var(--light);
+}
+
+.hero{
+    padding: 0 0 18rem 0;
+}
+
+.services{
+    padding: 4.5rem 0 20rem 0;
+}
+
+.why-insobi{
+    padding: 4.5rem 0 25.5rem 0;
+}
+
+.contact-us{
+    padding: 4.5rem 0 10rem 0;
+}
+
+.footer-content {
+    padding: 1.5rem;
+}

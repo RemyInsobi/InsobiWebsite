@@ -1,6 +1,7 @@
 /* Elements */
 :root{
-    --light: #23282D;
+    --light: #353a3f;
+    --medium: #23282D;
     --dark: #1B1F23;
     --contrast: #F05454;
     --offpitch: #B889DB;
@@ -27,8 +28,8 @@ html{
 
 body{
     font-family: 'Bespoke Sans', sans-serif;
-    background-color: var(--light);
-    padding-top: 7rem;
+    background-color: var(--medium);
+    padding-top: 10rem;
     
 }
 
@@ -123,6 +124,11 @@ strong{
     align-items: center;
 }
 
+.footer-bar{
+    background-color: var(--dark);
+    text-align: center;
+    color: white;
+}
 
 
 /* Media  */
